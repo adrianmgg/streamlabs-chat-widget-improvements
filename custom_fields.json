@@ -1,0 +1,61 @@
+{
+    "use_twemojis": {
+        "label": "use twitter's emoji",
+        "type": "dropdown",
+        "options": {
+            "true": "on",
+            "false": "off"
+        },
+        "value": "true"
+    },
+    "use_mecommand_italic": {
+        "label": "italic /me commands (new style)",
+        "type": "dropdown",
+        "options": {
+            "true": "on",
+            "false": "off"
+        },
+        "value": "true"
+    },
+    "use_mecommand_colored": {
+        "label": "colorized /me commands (old style)",
+        "type": "dropdown",
+        "options": {
+            "true": "on",
+            "false": "off"
+        },
+        "value": "true"
+    },
+    "use_chat_pronouns": {
+        "label": "twitch chat pronouns (pronouns.alejo.io) integration",
+        "type": "dropdown",
+        "options": {
+            "true": "on",
+            "false": "off"
+        },
+        "value": "true"
+    },
+    "use_names_outline": {
+        "label": "Name Outlines",
+        "type": "dropdown",
+        "options": {
+            "true": "on",
+            "false": "off"
+        },
+        "value": "false"
+    },
+    "names_outline_color": {
+        "label": "Name Outlines Color",
+        "type": "colorpicker",
+        "value": "#000000"
+    },
+    "use_unlocalized_names": {
+        "label": "display unlocalized names alongside localized names",
+        "type": "dropdown",
+        "options": {
+            "true": "on",
+            "false": "off"
+        },
+        "value": "true"
+    }
+}

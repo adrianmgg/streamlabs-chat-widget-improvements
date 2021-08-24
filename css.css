@@ -1,0 +1,91 @@
+body {
+    background: {background_color};
+    color: {text_color};
+    font-size: 22px;
+}
+
+.colon,.name,.name_unlocalized {
+    height: 24px;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#log {
+    font: 0.8em "Helvetica Neue",Helvetica,Arial,sans-serif;
+/*     font: 0.8em "Helvetica Neue",Helvetica,Arial,sans-serif,'Twemoji Mozilla'; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#log>div {
+    padding-bottom: 0.4em;
+    animation: fadeOut 1s ease {message_hide_delay} forwards;
+    -webkit-animation: fadeOut 1s ease {message_hide_delay} forwards;
+    word-wrap: break-word;
+}
+
+#log>div.deleted {
+    visibility: hidden;
+}
+
+#log .emote {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    padding: 4px;
+}
+
+#log .emote img {
+    display: inline-block;
+    height: 1em;
+    opacity: 0;
+}
+
+.badge,.colon,.name {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#log .meta {
+    padding-right: 4px;
+    position: relative;
+/*     top: -1px; */
+}
+
+.badge {
+    margin-right: 4px;
+    height: 1em;
+}
+
+.name,.name_unlocalized {
+    font-weight: 700;
+    margin-left: 0.1em;
+  color: var(--user-color);
+}
+
+#log[data-names-outline] .name, #log[data-names-outline][data-mecommand-colored] .me_command .message {
+  text-shadow: {names_outline_color} 1px 0px 0px, {names_outline_color} 0.540302px 0.841471px 0px, {names_outline_color} -0.416147px 0.909297px 0px, {names_outline_color} -0.989992px 0.14112px 0px, {names_outline_color} -0.653644px -0.756802px 0px, {names_outline_color} 0.283662px -0.958924px 0px, {names_outline_color} 0.96017px -0.279415px 0px;
+}
+
+#log[data-mecommand-colored] .me_command .message {
+  color: var(--user-color);
+}
+
+#log[data-mecommand-italic] .me_command .message {
+  font-style: italic;
+}
+
+.name_unlocalized::before {
+  content: " (";
+}
+.name_unlocalized::after {
+  content: ")";
+}
