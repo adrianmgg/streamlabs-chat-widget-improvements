@@ -18,11 +18,11 @@
 1. click 'edit custom fields'
 <br/> ![image](https://user-images.githubusercontent.com/16143061/131265279-2d415bb8-f833-4512-8311-c0314e690142.png)
 1. paste the contents of [custom_fields.json](https://github.com/adrianmgg/streamlabs-chat-widget-improvements/raw/main/custom_fields.json) into the text area, then click update 
-<br/> ![image](https://user-images.githubusercontent.com/16143061/131265348-bd81c3c0-31c1-4395-af03-f594b2c65bd0.png)
+<br/> ![image](https://user-images.githubusercontent.com/16143061/131566960-d1ce6c53-33ae-4bc5-9f05-eea0e3b040a2.png)
 1. switch to the html tab, paste the contents of [html.html](https://github.com/adrianmgg/streamlabs-chat-widget-improvements/raw/main/html.html) into the text area
-<br/> ![image](https://user-images.githubusercontent.com/16143061/131557045-adac58e8-92d4-49f5-b8f7-d5c116ae9a61.png)
+<br/> ![image](https://user-images.githubusercontent.com/16143061/131566972-bea4d2b9-3348-41f8-8fbb-19b764a1e5b3.png)
 1. switch to the css tab, paste the contents of [css.css](https://github.com/adrianmgg/streamlabs-chat-widget-improvements/raw/main/css.css) into the text area
-<br/> ![image](https://user-images.githubusercontent.com/16143061/131557134-55731f49-9ede-44a9-b48d-17d947b31e3c.png)
+<br/> ![image](https://user-images.githubusercontent.com/16143061/131566985-437e8fc1-96ca-4f6c-868c-2be4e456d58a.png)
 1. switch to the js tab, paste the contents of [js.js](https://github.com/adrianmgg/streamlabs-chat-widget-improvements/raw/main/js.js) into the text area
-<br/> ![image](https://user-images.githubusercontent.com/16143061/131557432-09be611f-3020-4afb-9cf5-0acc8d79da7b.png)
+<br/> ![image](https://user-images.githubusercontent.com/16143061/131566995-dca7c724-7918-4cb5-94be-0632308b971a.png)
 1. click 'save settings'
