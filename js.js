@@ -90,9 +90,7 @@ document.addEventListener('onEventReceived', function(e){
     if({use_unlocalized_names}) doMessageUnlocalizedName(e.detail, messageElem);
   }
   else if(e.detail.command === 'CLEARCHAT') {
-    // should this even be an option? might as well be i guess
-    // should probably split it up into multiple options (global/per user/per msg) if it is configurable tho
-    /*if({use_clearchat})*/ doClearChat(e.detail);
+    doClearChat(e.detail);
   }
 });
 
