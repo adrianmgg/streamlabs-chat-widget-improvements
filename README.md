@@ -26,3 +26,8 @@
 1. switch to the js tab, paste the contents of [js.js](https://github.com/adrianmgg/streamlabs-chat-widget-improvements/raw/main/js.js) into the text area
 <br/> ![image](https://user-images.githubusercontent.com/16143061/131566995-dca7c724-7918-4cb5-94be-0632308b971a.png)
 1. click 'save settings'
+
+# legal/attribution stuff
+- [twemoji](https://twemoji.twitter.com/) is Copyright 2020 Twitter, Inc and other contributors
+  - graphics are licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
+  - code is licensed under the [MIT License](http://opensource.org/licenses/MIT)
