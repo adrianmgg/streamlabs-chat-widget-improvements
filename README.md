@@ -1,3 +1,14 @@
+# features
+- [twitch chat pronouns](https://pronouns.alejo.io/) integration
+<br/> ![image](https://user-images.githubusercontent.com/16143061/131559845-7d1e20af-8e9c-4488-8982-49a1fe9e2ebb.png)
+- colorize and/or italicize /me commands
+<br/> ![image](https://user-images.githubusercontent.com/16143061/131559766-eeceb0c6-f8ef-4921-96c4-bac499fdaa93.png)
+- use twitter's [twemoji](https://twemoji.twitter.com/) for emojis, scaled up to be the same size as twitch emotes
+<br/> before: ![image](https://user-images.githubusercontent.com/16143061/131560637-392f6646-b1aa-4224-a23d-a61bf63a0756.png)
+<br/> after: ![image](https://user-images.githubusercontent.com/16143061/131560323-e069216c-71a2-4975-b59a-1021817315f6.png)
+- display unlocalized names alongside localized names
+- ...and more
+
 # setup instructions
 1. go to the streamlabs chat widget settings at [https://streamlabs.com/dashboard#/chatbox](https://streamlabs.com/dashboard#/chatbox)
 1. enable custom HTML/CSS
